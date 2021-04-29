@@ -1,0 +1,240 @@
+navbar
+    background: rgba(0, 0, 0, 0.4)
+header
+    min-height: 850px
+    padding: 220px 0 0 0
+    background: url(../img/header_bc.png)center (center / cover) no-repeat
+.header
+    &_title
+        color: #fff
+        font-size: 55px
+        font-weight: 700
+        text-align: center
+        text-transform: uppercase
+    &_descr
+        +descr
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        margin-top: 20px
+    &_btn
+        width: 48%
+        +btn
+        font-size: 25px
+        text-transform: uppercase
+        &:hover
+            background-color: $second-color
+.under
+    li
+        transition: 0.3s
+        border-radius: 30px
+        &:hover
+            width: 100%
+            height: 100%
+            background-color: $main-color
+            border-radius: 30px
+.list
+    padding: 50px 0 70px 0
+    background-color: $bgc
+    &_title
+        color: #222
+        +title
+    &_wrapper
+        display: flex
+        justify-content: center
+        margin-top: 40px
+        &:last-child
+            margin-right: 0
+    &_card
+        width: 270px
+        background-color: #fff
+        border-radius: 10px
+        margin-right: 30px
+        &_title
+            text-align: center
+            font-size: 25px
+            font-weight: 700
+            margin-bottom: 10px
+            padding-top: 10px
+        &_text
+            padding: 0 16px 
+            font-size: 16px
+        &_footer
+            font-size: 25px
+            font-weight: 700
+            text-align: center
+            text-transform: uppercase
+            color: #fff
+            background-color: $main-color
+            margin-top: 15px
+            border-radius: 10px
+            border-top-left-radius: 0px
+            border-top-right-radius: 0px  
+            transition: $main-transition
+            &:hover
+                background-color: $second-color
+                cursor: pointer
+.work
+    min-height: 600px
+    padding: 100px 0
+    background: url(../img/work_bc.png)center (center / cover) no-repeat
+    &_title
+        +title
+        color: #fff 
+    &_descr
+        +descr
+        text-align: center
+    &_btn
+        +btn
+        font-size: 30px
+        width: 240px
+        text-transform: uppercase
+        margin: 0 auto
+        margin-top: 30px
+        font-weight: 700
+        &:hover
+            background-color: $second-color
+.cards
+    min-height: 600px
+    position: relative
+    top: -70px
+    &_card
+        width: 90%
+        background-color: $bgc 
+        padding: 35px 0 50px 0
+        border-radius: 3px
+        display: block
+        margin: 0 auto
+        margin-bottom: 40px
+        cursor: pointer
+        box-shadow: rgb(97, 97, 97)
+        &_title
+            color: $main-color
+            font-size: 120px
+            font-weight: 700
+            line-height: 120px
+            text-align: center
+            text-transform: uppercase
+        &_undertitle
+            color: #222
+            font-size: 30px
+            font-weight: 700
+            margin-bottom: 10px
+            text-align: center
+        &_text
+            font-size: 20px
+            padding: 0 100px
+            text-align: center
+.question
+    background-color: $main-color
+    width: 100%
+    min-height: 300px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    &_descr
+        text-align: center
+        color: #fff
+        font-size: 55px
+        font-weight: 700
+.chess
+    padding: 50px 0 
+    &_under
+        display: flex
+        justify-content: center
+    &_img
+        width: 95%
+        display: block
+        margin: 0 auto
+        border-radius: 2px
+    &_card
+        width: 600px
+        display: block
+        margin: 0 auto
+        &_title
+            font-size: 27px
+            font-weight: 700
+            margin-bottom: 10px
+        &_text
+            font-size: 19px
+            text-align: center
+        &_btn
+            +btn
+            font-size: 21px
+            width: 150px
+            font-weight: 400
+            margin-top: 15px
+            &:hover
+                background-color: $second-color
+.learn
+    height: 300px
+    width: 100%
+    background: url(../img/header_bc.png)
+    &_title
+        width: 100%
+        height: 300px
+        display: flex
+        align-items: center
+        justify-content: center
+        &_descr
+            +title
+            text-align: left
+            color: #fff
+            font-size: 47px
+    &_wrapper
+        width: 100%
+        height: 300px
+        display: flex
+        align-items: center
+        justify-content: center
+        &_btn
+            +btn
+            width: 90%
+            font-size: 30px
+            font-weight: 700
+            text-transform: uppercase
+            &:hover
+                background-color: $second-color
+footer
+    min-height: 300px
+    width: 100%
+    background-color: $bgc
+    padding-top: 30px
+.footer
+    &_base
+        position: relative
+        bottom: -90px
+        height: 20px
+        width: 100%
+        background-color: $main-color
+    &_wrapper
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+    &_items
+        &_title
+            color: #222
+            font-size: 30px
+            font-weight: 700
+            margin-bottom: 10px
+            cursor: pointer
+        &_text
+            font-size: 20px
+            font-weight: 400
+            line-height: 35px 
+    &_logo
+        display: flex
+        justify-content: start
+        align-items: center
+        &_img
+            height: 36px
+            width: 40px
+            margin-right: 10px
+            cursor: pointer
+        &_text
+            font-size: 30px
+            text-transform: uppercase
+            font-weight: 700
+            cursor: pointer
+.tar
+    text-align: right
